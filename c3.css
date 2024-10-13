@@ -1,0 +1,183 @@
+html {box-sizing: border-box;} 
+ 
+*, *:before, *:after {box-sizing: inherit;}  
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+}
+
+header,
+footer {
+    background-color: #125c99;
+    padding: 20px 0;
+    
+}
+
+
+
+nav {
+    background-color: #125c99;
+
+    color: #ebd2d2;
+    text-align: left;
+    font-size: 20px;
+
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+    border-radius: 10px 100px;
+    margin-top: 20px;
+
+    span {
+
+        position: relative;
+    }
+
+}
+
+b {
+    position: absolute;
+
+    left: 98px;
+    background-color: #e26060;
+    text-align: center;
+    padding: 2px;
+    border-radius: 2px;
+    height: 20px;
+    margin-top: 2px;
+
+}
+
+nav>a {
+    display: inline-block;
+    color: #ebd2d2;
+    text-decoration: none;
+    padding: 20px;
+    margin: 0 10px;
+
+}
+
+span>a {
+    display: inline-block;
+    color: #ebd2d2;
+    text-decoration: none;
+    padding: 20px;
+    margin: 0 10px;
+
+}
+
+nav>a:hover,
+:focus {
+    background-color: #5fc988;
+    outline: none;
+    border-radius: 10px 100px;
+    transition: all 0.7s;
+}
+
+span>a:hover,
+:focus {
+    background-color: #5fc988;
+    outline: none;
+    border-radius: 10px 100px;
+    transition: all 0.7s;
+}
+
+
+.butto:focus {
+    outline: none;
+    background-color: #010007;
+    opacity: 0.2;
+    border-radius: 10px;
+
+}
+
+.nav3 {
+    background-color: #e26060;
+    border-radius: 10px 100px;
+}
+
+.about {
+    float: right;
+}
+
+header{
+    height: 40px;
+   background: #ffffff;
+   margin-bottom: 50px;
+}
+
+.title{
+    color: #dd7e7e;
+    padding: 5px;
+    padding-top: 20px;
+    margin: 5px;
+    background-color: #125c99;
+   
+   
+
+}
+img {
+    width: 90%;
+    margin: 5px;
+}
+
+.content{
+    border: 2px solid red;
+    margin: 5px;
+    padding: 5px;
+ 
+}
+
+.container {
+    height: 98%;
+    width: 99%;
+    background-color: azure;
+    border: 5px solid;
+    margin: 5px;
+    
+    
+}
+.card{
+    display: inline-block;
+    border: 5px ;
+    margin: 20px;
+    width: 25%;
+    border: 2px soli  #901232;
+    background-color: rgb(219, 238, 238);
+}
+.card-title{
+
+    color: #125c90;
+    padding: 5px;
+    margin: 5px;
+}
+
+.card_p{
+   
+    color: #030208;
+    font-size: 20px;
+    line-height: 0.9;
+    border: 5px;
+    margin: 5px;
+    
+}
+
+.vd{
+ 
+    width: 95%;
+}
+
+footer {
+    margin-top: 20px;
+}
