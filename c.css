@@ -16,6 +16,7 @@ header{
 
 nav{
     background-color:#125c99;
+   
     color: #ebd2d2;
     text-align: left;
     font-size: 20px;
@@ -23,9 +24,32 @@ nav{
     width: 80%;
     margin: auto;
     margin-bottom: 10px;
-    
+    position: sticky;
+    top: 0;
+    border-radius: 10px 100px;
 
+span{
+   
+    position: relative;
+}
     
+}
+b{
+    position: absolute;
+   
+    left: 98px;
+    background-color: #e26060;
+    text-align: center;
+    padding: 2px;
+    border-radius: 2px;
+    height: 20px;
+    margin-top: 2px;
+    
+}
+.intro{
+    border: 10px solid  #d8cbcb80;
+    margin-bottom: 50px;
+    border-radius: 10px 100px;
 }
 
 nav >a{
@@ -36,18 +60,46 @@ nav >a{
     margin: 0 10px;
 
 }
+span >a{
+    display: inline-block;
+    color: #ebd2d2;
+    text-decoration: none;
+    padding: 20px;
+    margin: 0 10px;
 
-nav >a:hover ,a:focus{
+}
+
+nav >a:hover ,:focus{
     background-color: #5fc988;
     outline: none;
+    border-radius: 10px 100px;
+    transition: all 0.7s;
+}
+
+span >a:hover ,:focus{
+    background-color: #5fc988;
+    outline: none;
+    border-radius: 10px 100px;
+    transition: all 0.7s;
+}
+
+
+.butto:focus{
+    outline: none;
+    background-color: #010007;
+    opacity: 0.2;
+    border-radius: 10px;
+
 }
 
 .nav3{
     background-color: #e26060;
+    border-radius: 10px 100px;
 }
 .about{
     float: right;
 }
+
 
 
 main{
