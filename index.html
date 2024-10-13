@@ -6,6 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yassen Ameen</title>
     <link rel="stylesheet" href="c.css">
+    <style>
+        #screen {
+            
+                font-family: raleway, century gothic, texgyreadventor, sans-serif;
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 100px;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                color: #999;
+                text-align: center;
+            }
+    </style>
 </head>
 
 <body>
@@ -20,7 +33,7 @@
             <a href="https://machinelearningforkids.co.uk/scratch/">Scratch UI</a>
             <b>Use</b>
         </span>
-        
+
         <span>
             <a href="ind3.html">Videos&#128293; </a>
             <b>Hot </b>
@@ -33,17 +46,41 @@
 
         <section>
             <article class="art1">
-                <h2 class="tit">Who Iam ?</h2>
-                
-                <p class="par">i am yassen ,i am 10 years old
-                    ,im in 3 primary school,
-                    im using scratch programme
+                <h3 class="tit">Who Iam ?</h3>
 
-                    ,and this is my scratch projects</p>
-                <button class="bt1"><a class="a butto" target="_blank"
-                        href="https://www.facebook.com/?locale=ar_AR">FaceBook</a></button>
-                <button class="bt2"><a class="a butto" target="_blank"
-                        href="https://www.youtube.com/watch?v=oBMjMU1a-vY&list=PLAmzEzwFOgbo2CQG8HW0173SOrn37YOfR">Youtube</a></button>
+
+                <script type='text/javascript'>
+                    var index = 0;
+                    var text = "i am yassen ,i am 10 years old  ,im in 3 primary school,im using scratch programme ,and this is my scratch projects";
+
+
+
+
+
+                    // Here you can put in the text you want to make it type.
+                    function type() {
+                        document.getElementById('screen').innerHTML += text.charAt(index);
+                        index += 1;
+                        var t = setTimeout('type()', 100);
+                        // The time taken for each character here is 100ms. You can change it if you want.
+                    }
+                </script>
+                </head>
+
+                <body onload='type()'>
+                    <!-- And here, you create the container in which you display the typed text -->
+                    <div id='screen'></div>
+
+
+
+
+
+
+
+                    <button class="bt1"><a class="a butto" target="_blank"
+                            href="https://www.facebook.com/?locale=ar_AR">FaceBook</a></button>
+                    <button class="bt2"><a class="a butto" target="_blank"
+                            href="https://www.youtube.com/watch?v=oBMjMU1a-vY&list=PLAmzEzwFOgbo2CQG8HW0173SOrn37YOfR">Youtube</a></button>
             </article>
 
             <article class="art2">
@@ -61,8 +98,8 @@
     </div>
     <main>
         <section>
-           
-            <video  class="intro" height="300px" src="./videos/Pong Game with Scratch.mp4" controls></video>
+
+            <video class="intro" height="300px" src="./videos/Pong Game with Scratch.mp4" controls></video>
             <h2 class="main-title">My Scratch Projects</h2>
             <article class="card">
                 <h4 class="project-title">FootBall Game</h4>
