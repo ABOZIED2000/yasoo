@@ -15,7 +15,7 @@ html {box-sizing: border-box;}
     border-radius: 10px;
 }
 
-header,
+
 footer {
     background-color: #125c99;
     padding: 20px 0;
@@ -25,19 +25,21 @@ footer {
 
 
 nav {
+    display: block;
     background-color: #125c99;
 
     color: #ebd2d2;
     text-align: left;
     font-size: 20px;
 
-    width: 80%;
+    width: 100%;
     margin: auto;
     margin-bottom: 10px;
     position: sticky;
     top: 0;
     border-radius: 10px 100px;
-    margin-top: 20px;
+    
+   
 
     span {
 
@@ -118,10 +120,12 @@ header{
 }
 
 .title{
+    
     color: #dd7e7e;
     padding: 5px;
-    padding-top: 20px;
+   
     margin: 5px;
+
     background-color: #125c99;
    
    
@@ -133,27 +137,38 @@ img {
 }
 
 .content{
-    border: 2px solid red;
+   
     margin: 5px;
     padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
  
 }
 
 .container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  
     height: 98%;
     width: 99%;
     background-color: azure;
-    border: 5px solid;
+    
     margin: 5px;
     
     
 }
 .card{
-    display: inline-block;
-    border: 5px ;
+   
+    border: 5px  solid ;
+    
     margin: 20px;
-    width: 25%;
-    border: 2px soli  #901232;
+    
+    text-wrap: wrap;
+   
+    
+    
     background-color: rgb(219, 238, 238);
 }
 .card-title{
