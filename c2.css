@@ -150,7 +150,7 @@ main {
 
 .parg{
     height: 40%;
-    border: 5px;
+   
     margin: 5px;
     line-height: 1.9;
     font-size: 15px;
@@ -162,10 +162,13 @@ main {
     padding: 5px;
     padding-top: 20px;
     margin: 5px;
-    font-variant-caps: normal
+    
   
     
 
+}
+span{
+    word-break: break-all;
 }
 
 
